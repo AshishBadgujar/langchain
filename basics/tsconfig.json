@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "rootDir": "basics/src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false
+  }
+}

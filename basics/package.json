@@ -1,0 +1,25 @@
+{
+  "name": "langchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r ts-node/register --env-file=.env src/rag/Pdf.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.21",
+    "@langchain/core": "^0.3.27",
+    "@langchain/ollama": "^0.1.4",
+    "cheerio": "^1.0.0",
+    "chromadb": "^1.10.5",
+    "langchain": "^0.3.8",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
